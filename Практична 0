@@ -1,0 +1,29 @@
+C:\Users\HP 6570b>python
+Python 3.13.9 (tags/v3.13.9:8183fa5, Oct 14 2025, 14:09:13) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import IPython
+>>> url = "https://www.pythonanywhere.com/embedded3/"
+>>> iframe = ""
+>>> IPython.display.HTML(iframe)
+<IPython.core.display.HTML object>
+>>> print("Hello, world!")
+Hello, world!
+>>> help(print)
+Help on built-in function print in module builtins:
+
+print(*args, sep=' ', end='\n', file=None, flush=False)
+    Prints the values to a stream, or to sys.stdout by default.
+
+    sep
+      string inserted between values, default a space.
+    end
+      string appended after the last value, default a newline.
+    file
+      a file-like object (stream); defaults to the current sys.stdout.
+    flush
+      whether to forcibly flush the stream.
+
+>>> PI = 3.14
+>>> print("PI =",PI)
+PI = 3.14
+>>>
